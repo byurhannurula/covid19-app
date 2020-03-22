@@ -26,6 +26,7 @@ export const getStaticProps = async ({ params: { country } }) => {
   const data = await res.json()
 
   return {
+    revalidate: 8,
     props: {
       stats: data,
     },
