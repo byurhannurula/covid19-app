@@ -8,6 +8,7 @@ export const SEO = () => (
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="COVID-19 Stats" />
     <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="manifest" href="/manifest.json" />
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=fallback"
       rel="stylesheet"
