@@ -2,10 +2,9 @@ import React from 'react'
 
 import { SEO, Header, Footer } from '@/components/layout'
 import { GlobalStyles, Wrapper } from '@/styles'
-import { AppProvider } from '@/context'
 
 const MyApp = ({ Component, pageProps }) => (
-  <AppProvider>
+  <>
     <SEO />
     <Header />
     <GlobalStyles />
@@ -13,7 +12,7 @@ const MyApp = ({ Component, pageProps }) => (
       <Component {...pageProps} />
     </Wrapper>
     <Footer />
-  </AppProvider>
+  </>
 )
 
 MyApp.getInitialProps = async ({ Component, ctx }) => {
