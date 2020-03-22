@@ -1,0 +1,28 @@
+{
+  "private": false,
+  "version": "0.1.0",
+  "name": "covid-app",
+  "description": "COVID-19 Stats...",
+  "repository": "https://github.com/byurhanbeyzat/covid-app",
+  "author": "Byurhan Beyzat <hi@byurhanbeyzat.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "next": "9.3.1",
+    "next-pwa": "^2.3.1",
+    "node-fetch": "^2.6.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "recharts": "^1.8.5",
+    "styled-components": "^5.0.1"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.10.7",
+    "eslint-config-byurhan": "^0.0.5"
+  }
+}
